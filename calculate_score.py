@@ -7,7 +7,6 @@ import json
 import argparse
 
 ALPHA_VANTAGE_Q = 'https://www.alphavantage.co/query?'
-PREMIUM_API_KEY = 'PXNLXFEEF3V4JSBI'
 
 def get_previous_close(ticker, api_key):
     r = requests.get(ALPHA_VANTAGE_Q+
