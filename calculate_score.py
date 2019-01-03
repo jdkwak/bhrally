@@ -51,6 +51,8 @@ def convert_to_alphavan_ticker(google_ticker):
         return google_ticker.split(':')[1]
     if 'NYSEAMERICAN:' in google_ticker:
         return google_ticker.split(':')[1]
+    if 'BIT:' in google_ticker:
+        return google_ticker.split(':')[1] + '.MI'
     else:
         return google_ticker.split(':')[1]
 
@@ -113,7 +115,7 @@ if __name__ == '__main__':
                                        getattr(args, 'key'))
             print('      ' + str(price))
             price_dict[i] = price
-            time.sleep(2)
+            time.sleep(1.5)
             
     # Get Dividents 
     
@@ -157,4 +159,4 @@ if __name__ == '__main__':
     
     score.index.name = 'Klassement'
     
-    score.to_csv('score.csv')
+    score.to_csv(getattr(args, 'output'))
