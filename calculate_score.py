@@ -185,6 +185,7 @@ if __name__ == '__main__':
     time.sleep(1.5)
     Bench['BEL-20'] = get_pnl_string('^BFX', getattr(args, 'key'))
 
-    bench = pd.DataFrame.from_dict(Bench, orient='index', columns=['Index Rendement']).sort_values(by='Index Rendement', ascending=False)
+    bench = pd.DataFrame.from_dict(Bench, orient='index', columns=['Rendement']).sort_values(by='Rendement', ascending=False)
 
+    bench.index.name = 'Index'
     bench.to_csv(getattr(args, 'bench'))
