@@ -179,7 +179,7 @@ if __name__ == '__main__':
 
     Bench = {}
     Bench['BH-10'] = str(int((BH10.PnL * BH10.gekozen).sum()/BH10.gekozen.sum() * 10000)/100) + '%'
-    Bench['S&P-500'] = get_pnl_string('^GSPC', getattr(args, 'key'))
+    Bench['S&P-500'] = get_pnl_string('^SP500TR', getattr(args, 'key'))
     time.sleep(1.5)
     Bench['ESX-50'] = get_pnl_string('ETR:EUN2', getattr(args,'key'))
     time.sleep(1.5)
