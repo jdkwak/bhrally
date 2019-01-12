@@ -13,7 +13,7 @@ Stefan Willems,Banimmo SA,EBR:BANI,3.56,Agfa-Gevaert NV,EBR:AGFB,3.32,Econocom G
 Jeroen Van Aelst,Solvay SA,EBR:SOLB,87.28,Groep Brussel Lambert NV,EBR:GBLB,75.12,Campine NV,EBR:CAMB,27
 Marc Van Rumst,Euronav NV,EBR:EURN,6.41,Galapagos NV,AMS:GLPG,79.38,Mithra Pharmaceuticals SA,EBR:MITRA,19.9
 Tristan De Blick,EVS Broadcast Equipment SA,EBR:EVS,23.1,Bpost SA,EBR:BPOST,7.9,Econocom Group SE,EBR:ECONB,2.91
-Jim Stukken,NVIDIA Corporation,NASDAQ:NVDA,136.22,ING Groep NV,AMS:INGA,9.35,ISHS III/SHS EUR,LON:SE15,98.65
+Jim Stukken,NVIDIA Corporation,NASDAQ:NVDA,136.22,ING Groep NV,AMS:INGA,9.35,iShares Corp Bond 1-5yr ETF EUR,LON:SE15,98.65
 Philippe Delfosse,Mithra Pharmaceuticals SA,EBR:MITRA,19.9,Apple Inc.,NASDAQ:AAPL,157.92,Anheuser Busch Inbev NV,EBR:ABI,57.47
 Matthias Tuytschaever,Solvay SA,EBR:SOLB,87.28,Euronav NV,EPA:EURN,6.41,X Fab Silicon Foundries EV,EPA:XFAB,4.38
 Lukas Beys,Euronav NV,EBR:EURN,6.41,Biocartis Group NV,EBR:BCART,10.22,Agfa-Gevaert NV,EBR:AGFB,3.32
@@ -26,7 +26,7 @@ Jos Martens ,Deceuninck NV,EBR:DECB,1.93,Van de Velde NV,EBR:VAN,27.15,Compagnie
 Joël Schols,Finjan Holdings Inc,NASDAQ:FNJN,2.61,Banimmo SA,EBR:BANI,3.56,"VAALCO Energy, Inc.",NYSE:EGY,1.59
 Bart Lampo,CUV Ventures Corp,CVE:CUV,0.305,Vendetta Mining Corp,CVE:VTT,0.17,Osprey Gold Development Ltd,CVE:OS,0.055
 Alain Gorissen,"Micron Technology, Inc.",NASDAQ:MU,32.75,IQIYI Inc,NASDAQ:IQ,15.22,ARK ETF TR/INNOVATION ETF,NYSEARCA:ARKK,37.42
-Adrie den Blanken,ISHS III/SHS USD,AMS:IEMA,27.02,ISHS III/SHS EUR,AMS:IMAE,44.48,ISHS III/SHS USD,AMS:IJPA,32.83
+Adrie den Blanken,iShares MSCI Emerging Markets,AMS:IEMA,27.02,iShares MSCI Europe,AMS:IMAE,44.48,iShares MSCI Japan,AMS:IJPA,32.83
 Peter De Neve,Nyrstar NV,EBR:NYR,0.58,Bpost SA,EBR:BPOST,7.9,Banimmo SA,EBR:BANI,3.56
 Bernard Van Schoonacker,Tessenderlo Group NV,EBR:TESB,29.75,Solvay SA,EBR:SOLB,87.28,Aannemingsmaatschappij Cfe NV,EBR:CFEB,84.9
 Koen verdonck,CUV Ventures Corp,CVE:CUV,0.305,Aurora Cannabis Inc,TSE:ACB,7.09,BTL Group Ltd,CVE:BTL,1.33
