@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import datetime as dt
 from collections import Counter
 import time
@@ -17,9 +18,14 @@ def get_previous_close(ticker, api_key):
                      '&apikey='+
                      api_key)
     if r.ok:
-        #return float(r.json()['Global Quote']['08. previous close'])
-        return float(r.json()['Global Quote']['05. price'])
+        print(r.json())
+        try:
+            return float(r.json()['Global Quote']['05. price'])
+        except:
+            print("%s invalid reply" %(ticker))
+            return 0.0
     else:
+        print("ticker: %s not okay" %(ticker))
         return 0.0
 
 def get_pnl_string(x, api_key):
@@ -47,7 +53,7 @@ def convert_to_alphavan_ticker(google_ticker):
     if 'JSE:' in google_ticker:
         return google_ticker.split(':')[1] + '.JO'
     if 'SWX:' in google_ticker:
-        return google_ticker.split(':')[1] + '.VX'
+        return google_ticker.split(':')[1] + '.SW'
     if 'TSE:' in google_ticker:
         return google_ticker.split(':')[1] + '.TO'
     if 'NYSEARCA:' in google_ticker:
@@ -114,9 +120,11 @@ if __name__ == '__main__':
             print(i)
             price = get_previous_close(convert_to_alphavan_ticker(i),
                                        getattr(args, 'key'))
+            if i == 'LON:SE15':
+                price = price/100.0
             print('      ' + str(price))
             price_dict[i] = price
-            time.sleep(1.5)
+            time.sleep(5)
 
     # Get Dividents
 
