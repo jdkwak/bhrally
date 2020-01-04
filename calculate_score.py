@@ -171,7 +171,9 @@ if __name__ == '__main__':
     for i in range(1, 6):
             data["stock_"+str(i)+"_return"] = (((data["stock_"+str(i)+"_current_price"] + data["stock_"+str(i)+"_divs"])/data["stock_"+str(i)+"_start_price"] - 1)*10000).astype(int)/100
 
-    data['total_return'] = (((data.stock_1_return + data.stock_2_return + data.stock_3_return)/3)*100).astype(int)/100
+    data['total_return'] = (((data.stock_1_return + data.stock_2_return +
+                              data.stock_3_return + data.stock_4_return +
+                              data.stock_5_return)/5)*100).astype(int)/100
 
     data.sort_values(by='total_return', ascending=False, inplace=True)
 
