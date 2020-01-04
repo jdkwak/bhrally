@@ -1,64 +1,64 @@
 {
     "EPA:XFAB": 0.0, #EUR
-    "EPA:EURN": 0.16, #USD
+    "EPA:EURN": 0.14, #EUR
     "EPA:ENGI": 0.75, #EUR
     "EBR:SIOE": 0.62, #EUR
-    "NYSE:TNK": 0,
-    "AMS:TOM2": 0,
+    "NYSE:TNK": 0.0, #USD
+    "AMS:TOM2": 0.36, #EUR
     "EBR:DECB": 0.03, #EUR
     "EBR:VAN": 1.03, #EUR
-    "NYSE:EBR": 0,
+    "NYSE:EBR": 0.23, #USD
     "AMS:GLPG": 0.0, #EUR
-    "AMS:FUR": 0,
+    "AMS:FUR": 0.0, #EUR
     "LON:HUR": 0.0, #GBP
-    "NYSE:CVS": 0,
+    "NYSE:CVS": 2.0, #USD
     "CVE:NRN": 0.0, #CAD
-    "CVE:IBIT": 0,
+    "CVE:BLT": 0.0, #CAD
     "EBR:ABI": 1.8, #EUR
-    "NYSE:EGY": 0,
+    "NYSE:EGY": 0.0, #USD
     "NASDAQ:NVDA": 0.64, #USD
-    "EBR:ELI": 0,
-    "JSE:SNH": 0,
+    "EBR:ELI": 1.66, #EUR
+    "JSE:SNH": 0.0, #ZAR
     "EBR:NYR": 0, #EUR
     "NASDAQ:FNJN": 0.0, #USD
-    "AMS:KDS": 0,
+    "AMS:KDS": 0.0, #EUR
     "EBR:ROU": 0.5, #EUR
     "EBR:BANI": 0.0, #EUR
-    "NASDAQ:OBSV": 0,
+    "NASDAQ:OBSV": 0.0, #USD
     "EBR:SOLB": 3.75, #EUR
     "NASDAQ:MU": 0.0, #USD
     "AMS:INGA": 0.68, #EUR
     "AMS:DSC1": 0.0, #EUR
-    "EBR:RES": 0,
+    "EBR:RES": 3.0, #EUR
     "EBR:BCART": 0.0, #EUR
     "OTCMKTS:TCEHY": 0.112274, #USD
-    "ETR:NTG": 0,
+    "ETR:NTG": 0.2, #EUR
     "EPA:MELE": 2.2, #EUR
     "NASDAQ:PRQR": 0.0, #USD
     "CVE:CUV": 0.0, #CAD
-    "NYSE:QTS": 0,
+    "NYSE:QTS": 1.76, #QTS
     "NASDAQ:AAPL": 3.04, #USD
     "EBR:MELE": 2.2, #EUR
-    "EPA:ALGIL": 0,
-    "SWX:ABBN": 0,
+    "EPA:ALGIL": 0.6, #EUR
+    "SWX:ABBN": 0.77, #CHF
     "EBR:TEXF": 0.97143, #EUR
     "EBR:CPINV": 0.72, #EUR
-    "NYSEARCA:ARKK": 0,
+    "NYSEARCA:ARKK": 0.17, #USD
     "EBR:TNET": 0.57, #EUR
     "EBR:EXM": 0.0, #EUR
-    "EBR:CAMB": 0,
-    "EBR:TUB": 0,
+    "EBR:CAMB": 1.25, #EUR
+    "EBR:TUB": 0.56, #EUR
     "OTCMKTS:LWLG": 0.0, #USD
-    "EBR:MIKO": 0,
+    "EBR:MIKO": 1.92, #EUR
     "NASDAQ:BIDU": 0.0, #USD
-    "TSE:ACB": 0,
+    "TSE:ACB": 0.0, #CAD
     "TSE:KL": 0.109789, #USD
-    "BIT:AMP": 0,
-    "EBR:ARGX": 0,
-    "EBR:ACCB": 0,
+    "BIT:AMP": 0.0, #EUR
+    "EBR:ARGX": 0.0, #EUR
+    "EBR:ACCB": 0.0, #EUR
     "NASDAQ:CELG": 0.0, #USD
-    "NASDAQ:BLDP": 0,
-    "EBR:CFEB": 0,
+    "NASDAQ:BLDP": 0.0, #USD
+    "EBR:CFEB": 2.4, #EUR
     "NASDAQ:IQ": 0.0, #USD
     "NASDAQ:QCOM": 2.48, #USD
     "NYSE:LYB": 4.15, #USD
@@ -66,44 +66,44 @@
     "EPA:RES": 3.0, #EUR
     "NASDAQ:MTLS": 0.0, #USD
     "EPA:SIP": 0.55, #EUR
-    "AMS:IJPA": 0,
+    "AMS:IJPA": 0.0, #USD
     "EBR:EVS": 1.0, #EUR
     "EBR:VGP": 2.2, #EUR
     "NASDAQ:NBEV": 0.0, #USD
     "NASDAQ:CERS": 0.0, #USD
-    "NYSEARCA:NUGT": 0,
-    "CVE:OS": 0,
+    "NYSEARCA:NUGT": 0.21, #USD
+    "CVE:OS": 0.0, #CAD
     "LON:ANCR": 0.0, #GBP
     "EBR:BPOST": 0.87, #EUR
     "EBR:GBLB": 3.07, #EUR
     "TSE:KAT": 31.085866, #CAD
-    "EPA:EPS": 0,
+    "EPA:EPS": 0.0, #EUR
     "NYSE:BHC": 0.0, #USD
     "NYSE:LUB": 0.0, #USD
-    "AMS:AD": 0,
-    "EBR:SIP": 0,
+    "AMS:AD": 0.3, #EUR
+    "EBR:SIP": 0.25, #EUR
     "EPA:CS": 1.34,#EUR
     "EPA:DBG": 0.25, #EUR
     "EBR:MITRA": 0.0, #EUR
-    "NYSEAMERICAN:UUUU": 0,
-    "CVE:VTT": 0,
-    "LON:SE15": 0,
+    "NYSEAMERICAN:UUUU": 0.0, #USD
+    "CVE:VTT": 0.0, #CAD
+    "LON:SE15": 0.0, #EUR
     "EBR:AGFB": 0.0, #EUR
-    "EBR:EURN": 0,
+    "EBR:EURN": 0.12, #USD
     "EBR:REC": 0.24, #EUR
-    "LON:CNCT": 0,
+    "LON:CNCT": 0.0, #GBP
     "ETR:TUI1": 0.72, #EUR
-    "EBR:BOTHE": 0,
+    "EBR:BOTHE": 0.0, #EUR
     "EBR:ECONB": 0.56316, #EUR
     "TSE:H": 0.9545, #CAD
-    "EBR:ACKB": 0,
+    "EBR:ACKB": 2.32, #EUR
     "ETR:BMW3": 3.52, #EUR
     "AMS:IMAE": 0.0, #EUR
-    "ETR:SAP": 0,
-    "EPA:CDA": 0,
+    "ETR:SAP": 1.67, #EUR
+    "EPA:CDA": 0.65, #EUR
     "NYSE:ZTS": 0.856, #USD
-    "AMS:IEMA": 0,
+    "AMS:IEMA": 0.0, #USD
     "EBR:TESB": 0.0, #EUR
-    "NASDAQ:TLRY": 0,
+    "NASDAQ:TLRY": 0.0, #USD
     "EBR:UMI": 0.775 #EUR
 }
