@@ -231,7 +231,7 @@ if __name__ == '__main__':
     BH10['PnL'] =  (BH10.Price + BH10.Divs)/BH10.Start - 1
 
     Bench = {}
-    Bench['BH-10'] = str(int((BH10.PnL * BH10.gekozen).sum()/BH10.gekozen.sum() * 10000)/100) + '%'
+    Bench['BH-12'] = str(int((BH10.PnL * BH10.gekozen).sum()/BH10.gekozen.sum() * 10000)/100) + '%'
     Bench['S&P-500'] = get_pnl_string('^SP500TR', getattr(args, 'key'))
     time.sleep(1.5)
     Bench['ESX-50'] = get_pnl_string('ETR:EUN2', getattr(args,'key'))
