@@ -25,7 +25,7 @@ app.layout = html.Div(children=[
 
 @app.callback(Output('score-dataframe', 'children'),
 		[Input('interval-component', 'n_intervals')])
-def generate_score_table(dataframe, max_rows=100):
+def generate_score_table(dataframe, max_rows=200):
     dataframe = pd.read_csv('score.csv')
     return html.Table(
         # Header
