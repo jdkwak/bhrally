@@ -62,6 +62,24 @@ def convert_to_alphavan_ticker(google_ticker):
         return google_ticker.split(':')[1]
     if 'BIT:' in google_ticker:
         return google_ticker.split(':')[1] + '.MI'
+    if 'BME:' in google_ticker:
+        return google_ticker.split(':')[1] + '.MC'
+    if 'HEL:' in google_ticker:
+        return google_ticker.split(':')[1] + '.HE'
+    if 'VIE:' in google_ticker:
+        return google_ticker.split(':')[1] + '.VI' 
+    if 'HKG:' in google_ticker:
+        return google_ticker.split(':')[1] + '.HK' 
+    if 'FRA:' in google_ticker:
+        return google_ticker.split(':')[1] + '.SG'
+    if 'KRX:' in google_ticker:
+        return google_ticker.split(':')[1] + '.KS'
+    if 'MCX:' in google_ticker:
+        return google_ticker.split(':')[1] + '.ME'
+    if 'TYO:' in google_ticker:
+        return google_ticker.split(':')[1] + '.T'
+    if 'SGC:' in google_ticker:
+        return google_ticker.split(':')[1] + '.SI'
     else:
         return google_ticker
 
@@ -88,7 +106,7 @@ if __name__ == '__main__':
     
     # Input data    
         
-    raw_data = pd.read_csv(getattr(args, 'input'), 
+    raw_data = pd.read_csv('input_2020.csv', 
                        names=["name",
                               "stock_1_name",
                               "stock_1_ticker",
@@ -98,7 +116,13 @@ if __name__ == '__main__':
                               "stock_2_start_price",
                               "stock_3_name",
                               "stock_3_ticker",
-                              "stock_3_start_price"]
+                              "stock_3_start_price",
+                              "stock_4_name",
+                              "stock_4_ticker",
+                              "stock_4_start_price",                            
+                              "stock_5_name",
+                              "stock_5_ticker",
+                              "stock_5_start_price"]
                       )
  
     data = raw_data.dropna().reset_index(drop=True)
@@ -106,7 +130,7 @@ if __name__ == '__main__':
     tickers = []
     stocknames = []
 
-    for i in range(1,4):
+    for i in range(1,6):
         data["stock_"+str(i)+"_ticker"] = data["stock_"+str(i)+"_ticker"].str.upper()
         tickers += data["stock_"+str(i)+"_ticker"].tolist()
         stocknames += data["stock_"+str(i)+"_name"].tolist()
@@ -120,11 +144,9 @@ if __name__ == '__main__':
             print(i)
             price = get_previous_close(convert_to_alphavan_ticker(i),
                                        getattr(args, 'key'))
-            if i == 'LON:SE15':
-                price = price/100.0
             print('      ' + str(price))
             price_dict[i] = price
-            time.sleep(5)
+            time.sleep(1.5)
 
     # Get Dividents
 
@@ -142,11 +164,11 @@ if __name__ == '__main__':
 
     # Calculate Score
 
-    for i in range(1, 4):
+    for i in range(1, 6):
         data["stock_"+str(i)+"_current_price"] = data["stock_"+str(i)+"_ticker"].apply(lambda x: price_dict[x])
         data["stock_"+str(i)+"_divs"] = data["stock_"+str(i)+"_ticker"].apply(lambda x: divs_dict[x])
 
-    for i in range(1, 4):
+    for i in range(1, 6):
             data["stock_"+str(i)+"_return"] = (((data["stock_"+str(i)+"_current_price"] + data["stock_"+str(i)+"_divs"])/data["stock_"+str(i)+"_start_price"] - 1)*10000).astype(int)/100
 
     data['total_return'] = (((data.stock_1_return + data.stock_2_return + data.stock_3_return)/3)*100).astype(int)/100
@@ -156,17 +178,36 @@ if __name__ == '__main__':
     data.reset_index(inplace=True, drop=True)
 
     data.index += 1
+    
+    cc = [
+        'name',
+        'total_return',
+        'stock_1_name',
+        'stock_1_return',
+        'stock_2_name',
+        'stock_2_return',
+        'stock_3_name',
+        'stock_3_return',
+        'stock_4_name',
+        'stock_4_return',
+        'stock_5_name',
+        'stock_5_return',
+    ]
 
-    score = data[['name', 'total_return', 'stock_1_name', 'stock_1_return', 'stock_2_name', 'stock_2_return', 'stock_3_name', 'stock_3_return']].copy()
+    score = data[cc].copy()
 
     score.rename(columns={'name': 'Facebook Naam',
                           'total_return': 'Totaal Rendement',
                           'stock_1_name': 'Aandeel 1', 
                           'stock_2_name': 'Aandeel 2', 
                           'stock_3_name': 'Aandeel 3',
+                          'stock_4_name': 'Aandeel 4',
+                          'stock_5_name': 'Aandeel 5',
                           'stock_1_return': 'Rendement 1', 
                           'stock_2_return': 'Rendement 2',
                           'stock_3_return': 'Rendement 3',
+                          'stock_4_return': 'Rendement 4',
+                          'stock_5_return': 'Rendement 5',
                          }, inplace=True
                 )
 
@@ -174,12 +215,14 @@ if __name__ == '__main__':
     score['Rendement 1'] = score['Rendement 1'].astype(str) + '%'
     score['Rendement 2'] = score['Rendement 2'].astype(str) + '%'
     score['Rendement 3'] = score['Rendement 3'].astype(str) + '%'
+    score['Rendement 4'] = score['Rendement 4'].astype(str) + '%'
+    score['Rendement 5'] = score['Rendement 5'].astype(str) + '%'
 
     score.index.name = 'Klassement'
 
     score.to_csv(getattr(args, 'output'))
 
-    BH10 = pd.DataFrame.from_dict(Counter(tickers), orient='index', columns=['gekozen']).sort_values(by='gekozen', ascending=False).head(10)
+    BH10 = pd.DataFrame.from_dict(Counter(tickers), orient='index', columns=['gekozen']).sort_values(by='gekozen', ascending=False).head(12)
     BH10['Price'] = BH10.index.map(lambda x: price_dict[x])
     BH10['Divs'] = BH10.index.map(lambda x: divs_dict[x])
     BH10['Start'] = BH10.index.map(lambda x: start_price_dict[x])
