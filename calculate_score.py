@@ -146,7 +146,7 @@ if __name__ == '__main__':
                                        getattr(args, 'key'))
             print('      ' + str(price))
             price_dict[i] = price
-            time.sleep(1.5)
+            time.sleep(0.5)
 
     # Get Dividents
 
@@ -224,14 +224,14 @@ if __name__ == '__main__':
 
     score.to_csv(getattr(args, 'output'))
 
-    BH10 = pd.DataFrame.from_dict(Counter(tickers), orient='index', columns=['gekozen']).sort_values(by='gekozen', ascending=False).head(12)
-    BH10['Price'] = BH10.index.map(lambda x: price_dict[x])
-    BH10['Divs'] = BH10.index.map(lambda x: divs_dict[x])
-    BH10['Start'] = BH10.index.map(lambda x: start_price_dict[x])
-    BH10['PnL'] =  (BH10.Price + BH10.Divs)/BH10.Start - 1
+    BH12 = pd.DataFrame.from_dict(Counter(tickers), orient='index', columns=['gekozen']).sort_values(by='gekozen', ascending=False).head(12)
+    BH12['Price'] = BH12.index.map(lambda x: price_dict[x])
+    BH12['Divs'] = BH12.index.map(lambda x: divs_dict[x])
+    BH12['Start'] = BH12.index.map(lambda x: start_price_dict[x])
+    BH12['PnL'] =  (BH12.Price + BH12.Divs)/BH12.Start - 1
 
     Bench = {}
-    Bench['BH-12'] = str(int((BH10.PnL * BH10.gekozen).sum()/BH10.gekozen.sum() * 10000)/100) + '%'
+    Bench['BH-12'] = str(int((BH12.PnL * BH12.gekozen).sum()/BH12.gekozen.sum() * 10000)/100) + '%'
     Bench['S&P-500'] = get_pnl_string('^SP500TR', getattr(args, 'key'))
     time.sleep(1.5)
     Bench['ESX-50'] = get_pnl_string('ETR:EUN2', getattr(args,'key'))

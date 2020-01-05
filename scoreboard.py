@@ -12,7 +12,7 @@ server = flask.Flask(__name__)
 app = dash.Dash(__name__, server=server, external_stylesheets=external_stylesheets)
 
 app.layout = html.Div(children=[
-    html.H4(children='BEURS-Hobby Rally 2019'),
+    html.H4(children='BEURS-Hobby Rally 2020'),
     html.Table(id='bench-dataframe'),
     html.Table(id='score-dataframe'),
     dcc.Interval(

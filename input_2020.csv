@@ -18,7 +18,7 @@ Wouter Hendrikx,Unilever plc,LON:ULVR,4350.5,Ter Beke NV,EBR:TERB,110,Prosus NV,
 Bassens Peter,Jensen Group SA,EBR:JEN,34.7,X Fab Silicon Foundries EV,EPA:XFAB,4.17,Econocom Group SE,EBR:ECONB,2.43,Prosus NV,AMS:PRX,66.54,BE Semiconductor Industries NV,AMS:BESI,34.46
 Pelsemaker Geert,Smartphoto group NV,EBR:SMAR,16.2,Zynga Inc,NASDAQ:ZNGA,6.12,American Water Works Company Inc,NYSE:AWK,122.85,Zai Lab Ltd,NASDAQ:ZLAB,41.59,Kinepolis Group NV,EBR:KIN,59
 Lapon Brecht,argenx SE,EBR:ARGX,143.6,Fevertree Drinks PLC,LON:FEVR,2093,Virgin Galactic Holdings Inc Class A,NYSE:SPCE,11.55,Inventiva SA,EPA:IVA,3.67,Wirecard AG,ETR:WDI,107.5
-Stichelbaut Stephane,argenx SE,EBR:ARGX,143.6,Anheuser Busch Inbev NV,EBR:ABI,72.71,"Amazon.com, Inc.",NASDAQ:AMZN,1847.84,Alibaba Group Holding Ltd - ADR,NYSE:BABA,212.1,Apple Inc.,NASDAQ:AAPL,293.65
+Stephane Stichelbaut,argenx SE,EBR:ARGX,143.6,Anheuser Busch Inbev NV,EBR:ABI,72.71,"Amazon.com, Inc.",NASDAQ:AMZN,1847.84,Alibaba Group Holding Ltd - ADR,NYSE:BABA,212.1,Apple Inc.,NASDAQ:AAPL,293.65
 Joël Schols,X Fab Silicon Foundries EV,EPA:XFAB,4.17,Bed Bath & Beyond Inc.,NASDAQ:BBBY,17.3,Biocartis Group NV,EBR:BCART,5.72,"VAALCO Energy, Inc.",NYSE:EGY,2.22,Finjan Holdings Inc,NASDAQ:FNJN,2.01
 Wout Maes,NVIDIA Corporation,NASDAQ:NVDA,235.3,Mastercard Inc,NYSE:MA,298.59,Euronav NV,EBR:EURN,10.98,RATIONAL AG,ETR:RAA,717,"Intuitive Surgical, Inc.",NASDAQ:ISRG,591.15
 Glenn Logie,Biocartis Group NV,EBR:BCART,5.72,ProQR Therapeutics NV,NASDAQ:PRQR,9.91,Euronav NV,EBR:EURN,10.98,"Cisco Systems, Inc.",NASDAQ:CSCO,47.96,X Fab Silicon Foundries EV,EPA:XFAB,4.17
@@ -67,7 +67,6 @@ Philippe Delfosse,ArcelorMittal SA,AMS:MT,15.64,Basic Fit NV,AMS:BFIT,33.85,Bioc
 Mark Van Pamel,Smartphoto group NV,EBR:SMAR,16.2,Fagron NV,EBR:FAGR,19.33,VGP NV,EBR:VGP,87.8,Resilux NV,EBR:RES,145.5,Recticel NV,EBR:REC,8.31
 Michiel Macquoy,Neste Oyj,HEL:NESTE,31.02,Anheuser Busch Inbev NV,EBR:ABI,72.71,"Cisco Systems, Inc.",NASDAQ:CSCO,47.96,Exmar NV,EBR:EXM,5.28,Ter Beke NV,EBR:TERB,110
 Trekels Niels,Anheuser Busch Inbev NV,EBR:ABI,72.71,Kraft Heinz Co,NASDAQ:KHC,32.13,Nike Inc,NYSE:NKE,101.31,Biocartis Group NV,EBR:BCART,5.72,Newmont Goldcorp Corp,NYSE:NEM,43.45
-Stephane Stichelbaut,Anheuser Busch Inbev NV,EBR:ABI,72.71,JD.Com Inc,NASDAQ:JD,35.23,"Amazon.com, Inc.",NASDAQ:AMZN,1847.84,"Gilead Sciences, Inc.",NASDAQ:GILD,64.98,Mallinckrodt PLC,NYSE:MNK,3.49
 David Nieto,Digirad Corporation Preferred Shares Series A,NASDAQ:DRADP,5.05,Infineon Technologies AG,FRA:IFX,20.27,Vermilion Energy Inc,TSE:VET,21.23,CHESAPEAKE ENER/4.50% PFD SH,NYSE:CHK-PD,20.5,Prosus NV,AMS:PRX,66.54
 Bart Vanderstraeten,argenx SE,EBR:ARGX,143.6,Aannemingsmaatschappij Cfe NV,EBR:CFEB,97.3,ANTA Sports Products Ltd,HKG:2020,69.75,DIREXION SHS ET/DAILY SEMICONDUCTOR,NYSEARCA:SOXL,274.82,Tesla Inc,NASDAQ:TSLA,418.33
 Frederik Verschelden,Blackstone Minerals Ltd,ASX:BSX,0.15,Adriatic Metals PLC,ASX:ADT,1.58,Regulus Resources Inc,CVE:REG,1.28,Diamond Offshore Drilling Inc,NYSE:DO,7.19,Trevali Mining Corp,TSE:TV,0.23
