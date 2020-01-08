@@ -106,7 +106,7 @@ if __name__ == '__main__':
     
     # Input data    
         
-    raw_data = pd.read_csv('input_2020.csv', 
+    raw_data = pd.read_csv(getattr(args, 'input'), 
                        names=["name",
                               "stock_1_name",
                               "stock_1_ticker",

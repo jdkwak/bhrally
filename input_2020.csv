@@ -1,4 +1,4 @@
-Ruben Stukken,"Cisco Systems, Inc.",NASDAQ:CSCO,47.96,Nabaltec AG,ETR:NTG,33,Bausch Health Companies Inc,NYSE:BHC,29.92,QTS Realty Trust Inc Class A,NYSE:QTS,54.27,ASML Holding NV,AMS:ASML,263.7
+Ruben Stukken,"Cisco Systems, Inc.",NASDAQ:CSCO,47.96,Nabaltec AG,ETR:NTG,33,Bausch Health Companies Inc,NYSE:BHC,29.92,QTS Realty Trust Inc Class A,NYSE:QTS,54.27,Bristol-Myers Squibb Co,NYSE:BMY,64.19
 Peter De Neve,"Ross Stores, Inc.",NASDAQ:ROST,116.42,Fiserv Inc,NASDAQ:FISV,115.63,Mastercard Inc,NYSE:MA,298.59,Thermo Fisher Scientific Inc.,NYSE:TMO,324.87,Varta AG,FRA:VAR1,121.8
 Wubbe Bos,BNP Paribas SA,EPA:BNP,52.83,Scorpio Tankers Inc.,NYSE:STNG,39.34,CK Hutchison Holdings Ltd,HKG:0001,74.3,GMK Noril'skiy nikel' PAO,MCX:GMKN,19102,Cpl Resources Plc,LON:CPS,656.75
 Patrick De Winter,Payton Planar Magnetics Ltd,EBR:PAY,5.8,Solvay SA,EBR:SOLB,103.3,Sioen Industries NV,EBR:SIOE,22.8,VGP NV,EBR:VGP,87.8,X Fab Silicon Foundries EV,EPA:XFAB,4.17
@@ -61,7 +61,7 @@ Pieter Slegers,Jensen Group SA,EBR:JEN,34.7,Payton Planar Magnetics Ltd,EBR:PAY,
 Thomas Wouters,Sioen Industries NV,EBR:SIOE,22.8,Galapagos NV,AMS:GLPG,186.5,Basic Fit NV,AMS:BFIT,33.85,Alibaba Group Holding Ltd - ADR,NYSE:BABA,212.1,"Amazon.com, Inc.",NASDAQ:AMZN,1847.84
 Marc Van Rumst,argenx SE,EBR:ARGX,143.6,Biocartis Group NV,EBR:BCART,5.72,Deceuninck NV,EBR:DECB,2.05,Inventiva SA,EPA:IVA,3.67,Galapagos NV,AMS:GLPG,186.5
 Simon Geldof,Correvio Pharma Corp,NASDAQ:CORV,0.41,Rockwell Medical Inc,NASDAQ:RMTI,2.44,Alibaba Group Holding Ltd - ADR,NYSE:BABA,212.1,JD.Com Inc,NASDAQ:JD,35.23,IQIYI Inc,NASDAQ:IQ,21.11
-Katrien Dewinter,Bristol-Myers Squibb Co,NYSE:BMY,64.19,Valero Energy Corporation,NYSE:VLO,93.65,Broadcom Inc,NASDAQ:AVGO,316.02,AudioCodes Ltd.,NASDAQ:AUDC,9132,"Euronet Worldwide, Inc.",NASDAQ:EEFT,157.56
+Katrien Dewinter,Bristol-Myers Squibb Co,NYSE:BMY,64.19,Valero Energy Corporation,NYSE:VLO,93.65,Broadcom Inc,NASDAQ:AVGO,316.02,AudioCodes Ltd.,NASDAQ:AUDC,25.69,"Euronet Worldwide, Inc.",NASDAQ:EEFT,157.56
 Laurent Vermeersch,Valley National Bancorp,NASDAQ:VLY,11.45,Pagegroup PLC,LON:PAGE,523,SThree Plc,LON:STEM,371,"Prosperity Bancshares, Inc.",NYSE:PB,71.89,Independent Bank Group Inc,NASDAQ:IBTX,55.44
 Philippe Delfosse,ArcelorMittal SA,AMS:MT,15.64,Basic Fit NV,AMS:BFIT,33.85,Biocartis Group NV,EBR:BCART,5.72,argenx SE,EBR:ARGX,143.6,Solvay SA,EBR:SOLB,103.3
 Mark Van Pamel,Smartphoto group NV,EBR:SMAR,16.2,Fagron NV,EBR:FAGR,19.33,VGP NV,EBR:VGP,87.8,Resilux NV,EBR:RES,145.5,Recticel NV,EBR:REC,8.31
@@ -107,7 +107,6 @@ Pierre Huylenbroeck,SIPEF NV,EBR:SIP,54.8,Jensen Group SA,EBR:JEN,34.7,Zenitel S
 Tom Knaeps,argenx SE,EBR:ARGX,143.6,Galapagos NV,AMS:GLPG,188,Mithra Pharmaceuticals SA,EBR:MITRA,26.26,PostNL NV,AMS:PNL,2.022,VGP NV,EBR:VGP,87.8
 Eddy De Vlieger,argenx SE,EBR:ARGX,143.6,Biocartis Group NV,EBR:BCART,5.72,Melexis NV,EBR:MELE,67.05,Apple Inc.,NASDAQ:AAPL,293.65,Warehouses de Pauw Comm VA,EBR:WDP,23.17
 Kjell Mortier,Econocom Group SE,EBR:ECONB,2.43,Abivax SA,epa:abvx,22.55,Ionis Pharmaceuticals Inc,NASDAQ:IONS,60.41,Tessenderlo Group NV,ebr:tesb,31.45,Argan S.A.,EPA:ARG,77.6
-Enzo Ide,Crispr Therapeutics AG,NASDAQ:CRSP,60.91,Lendingtree Inc,NASDAQ:TREE,303.44,nVent Electric PLC,NYSE:NVT,25.58,"Xilinx, Inc.",NASDAQ:XLNX,97.77,Grayscale Bitcoin Trust (Btc),OTCMKTS:GBTC,8.19
 Jos Martens,Econocom Group SE,EBR:ECONB,2.43,Pharming Group N.V.,AMS:PHARM,1.57,Renault SA,EPA:RNO,42.18,Daimler AG,ETR:DAI,49.37,Biocartis Group NV,EBR:BCART,5.72
 van den abeele karel,argenx SE,EBR:ARGX,143.6,Galapagos NV,AMS:GLPG,186.5,Adriatic Metals PLC,ASX:ADT,1.58,RevoluGROUP Canada Inc,CVE:REVO,0.15,Energy Fuels Inc,NYSEAMERICAN:UUUU,1.91
 Tom Feryn,Picanol NV,EBR:PIC,68,Bone Therapeutics SA,EBR:BOTHE,3.65,Celyad SA,EBR:CYAD,9.7,Balta Group NV,EBR:BALTA,2.8,Deceuninck NV,EBR:DECB,2.05
