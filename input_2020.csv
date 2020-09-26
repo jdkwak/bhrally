@@ -34,7 +34,7 @@ Mark Oosterling,Alibaba Group Holding Ltd - ADR,NYSE:BABA,212.1,Freeport-McMoRan
 Kurt Wauters,Lotus Bakeries NV,EBR:LOTB,2590,Jensen Group SA,EBR:JEN,34.7,Tessenderlo Group NV,EBR:TESB,31.45,VGP NV,EBR:VGP,87.8,Miko NV,EBR:MIKO,107
 Thierry DL ,Venator Materials PLC,NYSE:VNTR,3.83,McEwen Mining Inc,NYSE:MUX,1.27,BARCLAYS IPTH SRS B S&P SHRT TRM ETN,VXX,15.12,Deceuninck NV,EBR:DECB,2.05,Eutelsat Communications SA,EPA:ETL,14.49
 Robin Medland,"Cisco Systems, Inc.",NASDAQ:CSCO,47.96,BARCO N.V. Common Stock,EBR:BAR,219,Alibaba Group Holding Ltd - ADR,NYSE:BABA,212.1,Biocartis Group NV,EBR:BCART,5.72,Sioen Industries NV,EBR:SIOE,22.8
-Bart Lampo,ZoomAway Travel Inc,CVE:ZMA,0.09,Vendetta Mining Corp,CVE:VTT,0.05,RevoluGROUP Canada Inc,CVE:REVO,0.15,Osprey Gold Development Ltd,CVE:OS,0.05,Golden Ridge Resources Ltd,CVE:GLDN,0.06
+Bart Lampo,ZoomAway Travel Inc,CVE:ZMA,0.09,Vendetta Mining Corp,CVE:VTT,0.05,RevoluGROUP Canada Inc,CVE:REVO,0.15,Osprey Gold Development Ltd,CVE:OS,0.05,Golden Ridge Resources Ltd,CVE:GLDN,0.3
 Jeroen Van Aelst,NVIDIA Corporation,NASDAQ:NVDA,235.3,"Cisco Systems, Inc.",NASDAQ:CSCO,47.96,Jensen Group SA,EBR:JEN,34.7,Adyen NV,AMS:ADYEN,731,Campine NV,EBR:CAMB,29
 Kurt D'hondt,EnWave Corp,CVE:ENW,1.68,Western Copper and Gold Corp,TSE:WRN,1.07,Lotus Bakeries NV,EBR:LOTB,2590,Bausch Health Companies Inc,NYSE:BHC,29.92,Accsys Technologies Plc,AMS:AXS,1.24
 Christophe De Wael,Galapagos NV,AMS:GLPG,186.5,"Cisco Systems, Inc.",NASDAQ:CSCO,47.96,argenx SE,EBR:ARGX,143.6,Euronav NV,EBR:EURN,10.98,DHT Holdings Inc,NYSE:DHT,8.28
@@ -114,11 +114,11 @@ Kristof Rennen,NVIDIA Corporation,NASDAQ:NVDA,235.3,Anheuser Busch Inbev NV,EBR:
 Joren Van Aken,"Gilead Sciences, Inc.",NASDAQ:GILD,64.98,Mylan NV,NASDAQ:MYL,20.1,Kaufman & Broad SA,EPA:KOF,37,Burford Capital Limited,LON:BUR,712,Econocom Group SE,EBR:ECONB,2.43
 Eric Geurden,"Ross Stores, Inc.",NASDAQ:ROST,116.42,D. R. Horton Inc,NYSE:DHI,52.75,"Universal Forest Products, Inc.",NASDAQ:UFPI,47.7,New Oriental Education & Tech Grp,NYSE:EDU,121.25,Heico Corp,NYSE:HEI,114.15
 Hans Luyten,Pinduoduo Inc,NASDAQ:PDD,37.82,"Xilinx, Inc.",NASDAQ:XLNX,97.77,Qorvo Inc,NASDAQ:QRVO,116.23,Keysight Technologies Inc,NYSE:KEYS,102.63,Viavi Solutions Inc,NASDAQ:VIAV,15
-Tiziano Milani,Aurora Cannabis Inc,TSE:ACB,2.79,Tesla Inc,NASDAQ:TSLA,418.33,Alphabet Inc Class C,NASDAQ:GOOG,1337.02,"Facebook, Inc. Common Stock",NASDAQ:FB,205.25,NVIDIA Corporation,NASDAQ:NVDA,235.3
+Tiziano Milani,Aurora Cannabis Inc,TSE:ACB,33.48,Tesla Inc,NASDAQ:TSLA,418.33,Alphabet Inc Class C,NASDAQ:GOOG,1337.02,"Facebook, Inc. Common Stock",NASDAQ:FB,205.25,NVIDIA Corporation,NASDAQ:NVDA,235.3
 Achille Depla,Anheuser Busch Inbev NV,EBR:ABI,72.71,"Advanced Micro Devices, Inc.",NASDAQ:AMD,45.86,Tesla Inc,NASDAQ:TSLA,418.33,Beyond Meat Inc,NASDAQ:BYND,75.6,Picanol NV,EBR:PIC,68
 Eveline Mannaerts,Mithra Pharmaceuticals SA,EBR:MITRA,26.26,Kinepolis Group NV,EBR:KIN,59,argenx SE,EBR:ARGX,143.6,Microsoft Corporation,NASDAQ:MSFT,157.7,Alibaba Group Holding Ltd - ADR,NYSE:BABA,212.1
 Robbe Van Nieuwenhove,"Cisco Systems, Inc.",NASDAQ:CSCO,47.96,argenx SE,EBR:ARGX,143.6,Sioen Industries NV,EBR:SIOE,22.8,ISHS III/SHS CL-ACC USD,AMS:IWDA,56.11,Euronav NV,EBR:EURN,10.98
-Jari Curé,Aurora Cannabis Inc,NYSE:ACB,2.16,Riot Blockchain Inc,NASDAQ:RIOT,1.12,Largo Resources Ltd,TSE:LGO,0.99,Virgin Galactic Holdings Inc Class A,NYSE:SPCE,11.55,SIPEF NV,EBR:SIP,54.8
+Jari Curé,Aurora Cannabis Inc,NYSE:ACB,25.92,Riot Blockchain Inc,NASDAQ:RIOT,1.12,Largo Resources Ltd,TSE:LGO,0.99,Virgin Galactic Holdings Inc Class A,NYSE:SPCE,11.55,SIPEF NV,EBR:SIP,54.8
 Pieterjan Eygenraam,Moneygram International Inc,NASDAQ:MGI,2.1,"Amazon.com, Inc.",NASDAQ:AMZN,1847.84,Tesla Inc,NASDAQ:TSLA,418.33,Alibaba Group Holding Ltd - ADR,NYSE:BABA,212.1,Euronav NV,EBR:EURN,10.98
 Kris Vantyghem,McEwen Mining Inc,NYSE:MUX,1.27,Galapagos NV,AMS:GLPG,186.5,Deceuninck NV,EBR:DECB,2.05,Ter Beke NV,EBR:TERB,110,VGP NV,EBR:VGP,87.8
 Tim Nijsmans,ISHS III/SHS CL-ACC USD,AMS:IWDA,56.11,VANGUARD/SHS USD,AMS:VWRL,82.82,ISHS IV/SHS CL-ACC USD,LON:IFSW,7.41,VANECK VECTORS /VIDEO GAMING & ESPO,NASDAQ:ESPO,38.12,ISHS III/SHS CL-ACC USD,LON:WSML,5.52
